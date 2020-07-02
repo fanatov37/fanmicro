@@ -1,0 +1,21 @@
+{
+    "name": "root/html",
+    "authors": [
+        {
+            "name": "Vlad Fanatov",
+            "email": "fanatov37@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Core\\": "core/"
+        }
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true,
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "container-interop/container-interop": "^1.1"
+    }
+}
